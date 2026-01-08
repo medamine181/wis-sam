@@ -1,0 +1,146 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+h1{
+    color: #007BFF;
+    text-align: center;
+
+}
+p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #007BFF;
+    padding: 10px 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+button{
+    padding: 10px 20px;
+    background-color: white;
+    color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #e0e0e0;
+}
+.dark-mode{
+    background-color: #121212;
+    color: #e0e0e0;
+}
+.dark-mode header{
+    background-color: #1F1F1F;
+}
+.dark-mode a{
+    color: #BB86FC;
+}
+.dark-mode button{
+    background-color: #333;
+    color: #BB86FC;
+}
+.dark-mode button:hover{
+    background-color: #444;
+}
+label{
+    font-size: 16px;
+}
+input[type="text"], input[type="password"]{
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #0056b3;
+}
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.dark-mode form{
+    background-color: #1F1F1F;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+.dark-mode input[type="text"], .dark-mode input[type="password"]{
+    background-color: #333;
+    border: 1px solid #555;
+    color: #e0e0e0;
+}
+.dark-mode input[type="submit"]{
+    background-color: #BB86FC;
+    color: #121212;
+}
+.dark-mode input[type="submit"]:hover{
+    background-color: #9b59b6;
+}
+nav{
+    margin-top: 20px;
+    text-align: center;
+}
+nav a{
+    margin: 0 15px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+    color: #777;
+}
+.dark-mode footer{
+    background-color: #1F1F1F;
+    color: #aaa;
+}
+footer a{
+    color: #007BFF;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer p{
+    margin: 5px 0;
+}
+
+

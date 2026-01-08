@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="mode2.js"></script>
+</head>
+<body>
+    <header>
+        <button id="mode-toggle" onclick="toggleMode()">Toggle Mode</button>
+        <a href="index.html">home</a>
+        <a href="pri1.html">loge in </a>
+        <a href="pri2.html">command</a>
+    </header>
+    <h1>Welcome to wis-sam command page</h1>
+    <form action="/submit_command" method="post">
+        <label for="command">Enter Command:</label>
+        <input type="text" id="command" name="command" required><br><br>
+        <input type="submit" value="Submit Command">
+    </form>
+</body>
+</html>
